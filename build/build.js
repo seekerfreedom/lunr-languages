@@ -35,7 +35,7 @@ function wordCharacters(script) {
 // list mapping between locale, stemmer file, stopwords file, and char pattern
 var list = [
     {
-        locale: 'ar',
+        locale: 'ar'
     }, {
         locale: 'hi'
     }, {
@@ -60,6 +60,8 @@ var list = [
         stopwords: stopwordsRepoFolder + 'nl.csv',
         wordCharacters: wordCharacters('Latin'),
         warningMessage: '[Lunr Languages] Please use the "nl" instead of the "du". The "nl" code is the standard code for Dutch language, and "du" will be removed in the next major versions.'
+    }, {
+        locale: 'fa'
     }, {
         locale: 'fi',
         file: 'FinnishStemmer.js',

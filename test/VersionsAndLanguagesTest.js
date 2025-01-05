@@ -20,13 +20,14 @@ var lunrVersions = [
 
 ];
 
-var testDocuments = {
+var testDocuments = { 
     he: require('./testdata/he'),
     ar: require('./testdata/ar'),
     de: require('./testdata/de'),
     da: require('./testdata/da'),
     du: require('./testdata/du'),
     es: require('./testdata/es'),
+    fa: require('./testdata/fa'),
     fi: require('./testdata/fi'),
     fr: require('./testdata/fr'),
     hi: require('./testdata/hi'),
